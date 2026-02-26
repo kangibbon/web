@@ -43,3 +43,9 @@
     align-items: center;      /* függőleges */
     height: 100vh;
 }
+
+#fogomb{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
