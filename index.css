@@ -1,4 +1,9 @@
-        body {
+*{ margin: 0%;
+    padding: 0%;
+
+}
+
+body {
             margin: 0;
             font-family: Arial, sans-serif;
             background: #111;
@@ -7,7 +12,7 @@
 
         .container {
             display: flex;
-            height: 100vh;
+            overflow: hidden;
         }
 
         /* bal oldali menu */
@@ -34,7 +39,7 @@
             font-weight: 500;
         }
 
-        /* fo tartalom */
+        /* cim */
         .main {
             color: black;
             flex: 1;
@@ -65,13 +70,12 @@
 
         /* „foto */
         .foto {
-            margin-top: 40px;
+            background-repeat: no-repeat;
+            background-position: center;
             width: 100%;
             height: 400px;
-            background-size: cover;
-            background-image: url(8850a529-9c0a-48ed-b06b-1d2d8543d9f5.png);
-            border-radius: 25px;
-            opacity: 0.9;
+            background-size: contain;
+            background-image: url(horváth\ ba\ \(10\).jpg);
         }
 
             /*  gombok navbar ctrl+v */ 
