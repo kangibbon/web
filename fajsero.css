@@ -1,45 +1,60 @@
-.navbar {
+html, body {
+    margin: 1;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
     display: flex;
-    align-items: center;
-    gap: 40px;
-    background: #1c1c1c;
-    padding: 15px 25px;
-    border-radius: 50px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background: #1c1c1c;
+  padding: 15px 25px;
+  border-radius: 50px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 /* kábel logo beállítások */
 .logo {
-    width: 45px;
-    height: 45px;
-    background: white;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
+  width: 45px;
+  height: 45px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 }
 
 /* felső gombok*/
 .nav-links {
-    display: flex;
-    gap: 35px;
+  display: flex;
+  gap: 35px;
 }
 
 .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    transition: 0.3s;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
 }
 
 .nav-links a:hover {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
-#frame{
-    display: flex;
-    justify-content: center;  /* vízszint */
-    align-items: center;      /* függőleges */
-    height: 100vh;
+#frame {
+  display: flex;
+  justify-content: center; /* vízszint */
+  align-items: center; /* függőleges */
+  height: 100vh;
 }

@@ -1,3 +1,18 @@
+html, body {
+    margin: 1;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
 .navbar {
     display: flex;
     align-items: center;
